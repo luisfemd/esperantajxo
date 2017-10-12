@@ -4,7 +4,7 @@ defmodule Esperantajxo.Diakrito.Skribsistemo do
     "jx" => ~s(\u{135}), "sx" => ~s(\u{15d}), "ux" => ~s(\u{16d}),
     "cX" => ~s(\u{109}), "gX" => ~s(\u{11d}), "hX" => ~s(\u{125}),
     "jX" => ~s(\u{135}), "sX" => ~s(\u{15d}), "uX" => ~s(\u{16d}),
-    "Cx" => ~s(\u{108}), "Gx" => ~s(\u{11e}), "Hx" => ~s(\u{124}),
+    "Cx" => ~s(\u{108}), "Gx" => ~s(\u{11c}), "Hx" => ~s(\u{124}),
     "Jx" => ~s(\u{134}), "Sx" => ~s(\u{15c}), "Ux" => ~s(\u{16c}),
     "CX" => ~s(\u{108}), "GX" => ~s(\u{11e}), "HX" => ~s(\u{124}),
     "JX" => ~s(\u{134}), "SX" => ~s(\u{15c}), "UX" => ~s(\u{16c})}
@@ -13,7 +13,7 @@ defmodule Esperantajxo.Diakrito.Skribsistemo do
     "jh" => ~s(\u{135}), "sh" => ~s(\u{15d}), "uh" => ~s(\u{16d}),
     "cH" => ~s(\u{109}), "gH" => ~s(\u{11d}), "hH" => ~s(\u{125}),
     "jH" => ~s(\u{135}), "sH" => ~s(\u{15d}), "uH" => ~s(\u{16d}),
-    "Ch" => ~s(\u{108}), "Gh" => ~s(\u{11e}), "Hh" => ~s(\u{124}),
+    "Ch" => ~s(\u{108}), "Gh" => ~s(\u{11c}), "Hh" => ~s(\u{124}),
     "Jh" => ~s(\u{134}), "Sh" => ~s(\u{15c}), "Uh" => ~s(\u{16c}),
     "CH" => ~s(\u{108}), "GH" => ~s(\u{11e}), "HH" => ~s(\u{124}),
     "JH" => ~s(\u{134}), "SH" => ~s(\u{15c}), "UH" => ~s(\u{16c})}
