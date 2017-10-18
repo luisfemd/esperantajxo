@@ -25,14 +25,11 @@ defmodule Esperantajxo.Nombro.Numero do
     "nulo"
   end
   def do_numbers_in_letters(number, i, acc, result) when number == acc do
-    IO.inspect {number, i, acc, result}
     result
   end
   def do_numbers_in_letters(number, i, acc, result) do
-    IO.inspect {number, i, acc, result}
     op = rem(number, pow(10, i + 1)) - acc
     digit = div(op, pow(10, i))
-    |> IO.inspect
     result = number_in_letters(digit, i) <> " " <> result
     do_numbers_in_letters(number, i + 1, acc + op, result)
   end
@@ -55,7 +52,9 @@ defmodule Esperantajxo.Nombro.Numero do
   def position_in_letters(position) when rem(position, 3) == 0 do
     " " <> Map.get(@numeroj, pow(10, position))
   end
-
+  def position_in_letters(position) when position > 3 do
+    Map.get(@numeroj, pow(10, rem(position, 3)))
+  end
   def position_in_letters(position) do
     Map.get(@numeroj, pow(10, position))
   end
